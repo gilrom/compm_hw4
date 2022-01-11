@@ -1,5 +1,4 @@
 /* 046267 Computer Architecture - Spring 2020 - HW #4 */
-//this is the best comment ever
 
 #ifndef CORE_API_H_
 #define CORE_API_H_
