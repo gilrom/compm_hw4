@@ -1,5 +1,5 @@
-/* 046267 Computer Architecture - Spring 2020 - HW #4 */
-/* Main memory simulator implementation               */
+/* 046267 Computer Architecture - Winter 20/21 - HW #4 */
+/* Main memory simulator implementation                */
 
 #include "core_api.h"
 #include <stddef.h>

@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/compm/compm_hw4",
+            "binaryPath": "/home/compm/compm_hw4/sim_main",
+            "binaryArgs": ["tests/example1.img"]
+        }
+    ]
+}

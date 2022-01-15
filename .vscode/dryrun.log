@@ -1,0 +1,8 @@
+make sim_main --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/compm/compm_hw4'
+gcc -c -std=c99 -Wall -O0 -o main.o main.c
+gcc -c -std=c99 -Wall -O0 -o sim_api.o sim_api.c
+g++ -std=c++11 -g -Wall -O0   -c -o core_api.o core_api.cpp
+g++ -o sim_main main.o sim_api.o core_api.o
+make: Leaving directory '/home/compm/compm_hw4'
+ 

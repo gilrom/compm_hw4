@@ -1,0 +1,313 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jan 15 11:03:01 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'makefile', line 22)
+OBJ_GIVEN = $(patsubst %.c,%.o,$(SRC_GIVEN))
+# default
+.SHELLFLAGS := -c
+# makefile (from 'makefile', line 24)
+OBJ = $(OBJ_GIVEN) $(OBJ_CORE)
+# environment
+VSCODE_AGENT_FOLDER = /home/compm/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/compm/compm_hw4
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/compm/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node
+# makefile (from 'makefile', line 5)
+CFLAGS = -std=c99 -Wall -O0
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'makefile', line 9)
+CXXFLAGS = -std=c++11 -g -Wall -O0
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = he_IL.UTF-8
+# environment
+VSCODE_CWD = /home/compm
+# environment
+SSH_CONNECTION = 192.168.111.1 54920 192.168.111.128 22
+# environment
+PATH = /home/compm/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/compm/bin:/home/compm/.local/bin:/home/compm/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# environment
+LC_NUMERIC = he_IL.UTF-8
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/compm/compm_hw4
+# environment
+QT_QPA_PLATFORMTHEME = appmenu-qt5
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-21c25beb-d463-4d83-b2e0-056bf4f0bbac.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/compm
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'makefile', line 20)
+EXTRA_DEPS = sim_api.h core_api.h
+# environment
+LOGNAME = compm
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = he_IL.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from 'makefile', line 4)
+CC = gcc
+# environment
+XDG_SESSION_ID = 1
+# environment
+USER = compm
+# environment
+LC_MONETARY = he_IL.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'makefile', line 18)
+SRC_CORE = $(wildcard core_api.c core_api.cpp)
+# environment
+LC_TELEPHONE = he_IL.UTF-8
+# makefile (from 'makefile', line 19)
+SRC_GIVEN = main.c sim_api.c
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.111.1 54920 22
+# environment
+MAIL = /var/mail/compm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/compm/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh
+# environment
+LC_IDENTIFICATION = he_IL.UTF-8
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# makefile (from 'makefile', line 8)
+CXX = g++
+# environment
+LC_MEASUREMENT = he_IL.UTF-8
+# environment
+LC_ALL = C
+# environment
+LC_PAPER = he_IL.UTF-8
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/compm/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = he_IL.UTF-8
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# makefile (from 'makefile', line 23)
+OBJ_CORE = core_api.o
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=14/119=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 20710): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: sim_main
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-11 16:14:07.234556316
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sim_api.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-11 16:14:07.234556316
+#  File has been updated.
+#  Successfully updated.
+
+sim_main: main.o sim_api.o core_api.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-01-14 16:28:49.012351852
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 37):
+	g++ -o $@ $(OBJ)
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-14 15:37:34.628832774
+#  File has been updated.
+#  Successfully updated.
+
+sim_core.o: sim_core.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 40):
+	g++ -c $(CXXFLAGS) -o $@ $<
+
+# Not a target:
+core_api.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-14 16:28:48.952351394
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 48):
+	rm -f sim_main $(OBJ_GIVEN) $(OBJ_CORE)
+
+main.o: main.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-01-14 16:26:04.931098291
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 44):
+	gcc -c $(CFLAGS) -o $@ $<
+
+sim_api.o: sim_api.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'sim_api'
+#  Last modified 2022-01-14 16:26:05.035099085
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 44):
+	gcc -c $(CFLAGS) -o $@ $<
+
+# Not a target:
+sim_core.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/37=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 234 B / avg = 8 B
+# current buf: size = 8162 B / used = 234 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 50 / hit rate = 44%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=1/50=2%
+# Finished Make data base on Sat Jan 15 11:03:01 2022
+
+ 

@@ -1,4 +1,4 @@
-/* 046267 Computer Architecture - Spring 2020 - HW #4 */
+/* 046267 Computer Architecture - Winter 20/21 - HW #4 */
 
 #include <stdio.h>
 #include "core_api.h"

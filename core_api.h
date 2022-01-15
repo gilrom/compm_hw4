@@ -1,4 +1,4 @@
-/* 046267 Computer Architecture - Spring 2020 - HW #4 */
+/* 046267 Computer Architecture - Winter 20/21 - HW #4 */
 
 #ifndef CORE_API_H_
 #define CORE_API_H_
